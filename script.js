@@ -5,7 +5,7 @@ const getUserChoice = (userInput) => {
     userInput = userInput.toLowerCase();
 
     // Check if the user input is valid
-    if (userInput === 'rock' || userInput === 'scissors' || userInput === 'paper' || userInput === 'bomb') {
+    if (userInput === 'rock' || userInput === 'scissors' || userInput === 'paper' || userInput === 'bomb') { 
         return userInput; // Return the valid user input
     } else {
         console.log('Error, please type: Rock, Paper, or Scissors.'); // Log an error message for invalid input
