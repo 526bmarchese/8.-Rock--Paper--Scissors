@@ -3,6 +3,7 @@ body {
 	color: #f8f9fa;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 h1,
 h2 {
 	margin-top: 20px;
@@ -35,13 +36,13 @@ footer {
 
 .btn-group .btn {
 	margin: 5px;
-	background-color: #6c757d;
+	background-color: #3c7cb4;
 	color: #f8f9fa;
 	border: none;
 }
 
 .btn-group .btn:hover {
-	background-color: #5a6268;
+	background-color: #0400ff;
 }
 
 .result {

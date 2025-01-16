@@ -67,8 +67,4 @@ function resetGame() {
   document.getElementById("round-result").innerText = "";
   document.getElementById("final-result").classList.add("hidden");
   document.getElementById("reset-game").classList.add("hidden");
-  document.getElementById("username-section").classList.remove("hidden");
-  document.getElementById("game-section").classList.add("hidden");
-  document.getElementById("instructions-section").classList.add("hidden");
-  document.getElementById("username").value = "";
 }
