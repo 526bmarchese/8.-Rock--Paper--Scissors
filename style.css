@@ -93,3 +93,28 @@ button#proceed-game:hover,
 button#reset-game:hover {
 	background-color: #0056b3;
 }
+
+.choice-img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.choice-img.selected {
+    border-color: #007bff;
+}
+
+.choice-label {
+    font-size: 1.2em;
+    color: #f8f9fa;
+    margin-top: 5px;
+}
+
+#reset-game {
+    width: 100px;
+    height: auto; 
+    margin-top: 20px;
+    cursor: pointer;
+}
