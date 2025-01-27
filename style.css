@@ -2,11 +2,11 @@ body {
 	background-color: #343a40;
 	color: #f8f9fa;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 h1,
 h2 {
-	margin-top: 20px;
 	color: #f8f9fa;
 }
 
@@ -62,6 +62,11 @@ footer {
 	padding: 20px;
 	border-radius: 10px;
 	margin-top: 20px;
+	margin: auto;
+}
+
+#labelh1 {
+	padding-bottom: 20px;
 }
 
 input[type="text"] {
