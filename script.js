@@ -23,7 +23,7 @@ document.getElementById("proceed-game").addEventListener("click", function () {
 function playRound(userChoice) {
   if (gameEnded) return;
 
-  //
+
   const choices = ["rock", "paper", "scissors"];
   const computerChoice = choices[Math.floor(Math.random() * 3)];
   let result = "";
@@ -35,10 +35,10 @@ function playRound(userChoice) {
     (userChoice === "scissors" && computerChoice === "paper")
   ) {
     result = `You win! ${userChoice} beats ${computerChoice}.`;
-    userWins++;
+    userWins++; //Incrementing the user win
   } else {
     result = `You lose! ${computerChoice} beats ${userChoice}.`;
-    computerWins++;
+    computerWins++; // Incrementing the computer win 
   }
   roundsPlayed++;
   document.getElementById("round-result").innerText = result;
