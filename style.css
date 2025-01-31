@@ -10,27 +10,28 @@ h2 {
 	color: #f8f9fa;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
+html,
+body {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
 }
 
 .container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 footer {
-    background-color: #343a40;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    position: relative;
-    width: 100%;
+	background-color: #343a40;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+	position: relative;
+	width: 100%;
 }
 
 
@@ -100,26 +101,26 @@ button#reset-game:hover {
 }
 
 .choice-img {
-    width: 100px;
-    height: auto;
-    margin: 10px;
-    border: 2px solid transparent;
-    transition: border-color 0.3s;
+	width: 100px;
+	height: auto;
+	margin: 10px;
+	border: 2px solid transparent;
+	transition: border-color 0.3s;
 }
 
 .choice-img.selected {
-    border-color: #007bff;
+	border-color: #007bff;
 }
 
 .choice-label {
-    font-size: 1.2em;
-    color: #f8f9fa;
-    margin-top: 5px;
+	font-size: 1.2em;
+	color: #f8f9fa;
+	margin-top: 5px;
 }
 
 #reset-game {
-    width: 100px;
-    height: auto; 
-    margin-top: 20px;
-    cursor: pointer;
+	width: 100px;
+	height: auto;
+	margin-top: 20px;
+	cursor: pointer;
 }
